@@ -1,0 +1,3 @@
+[submodule "RABIT-FRONTEND"]
+	path = RABIT-FRONTEND
+	url = https://github.com/FIT3170-FY-Project-7/RABIT-FRONTEND
