@@ -1,0 +1,8 @@
+services:
+  rabit:
+    build: .
+    command: node /rabit/backend/dist/index.js
+    volumes:
+      - ./RABIT-BACKEND/.env:/rabit/.env
+    ports: 
+      - "8000:8000"
