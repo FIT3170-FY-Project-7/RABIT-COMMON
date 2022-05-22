@@ -13,7 +13,7 @@
 ---
 
 ### 📄 | Licensing
-> In order to be accepted and merged into RABIT, __each piece of code must be in public domain or released under [ISC license](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/LICENSE.md)__.
+> In order to be accepted and merged into RABIT, __each piece of code must be released under [ISC license](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/LICENSE.md) or a compatible license__.
 >
 > *Check **one** of the following options:*
 - [ ] I am the original author of this code and I am willing to release it under the ISC license.
