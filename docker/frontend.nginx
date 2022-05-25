@@ -1,0 +1,17 @@
+# Nginx configuration for frontend docker container
+
+server {
+    listen         80 default_server;
+    listen         [::]:80 default_server;
+    root           /var/www/rabit-frontend;
+    index          index.html index.htm;
+
+    # Compression
+    gzip             on;
+    gzip_comp_level  3;
+    gzip_types       text/plain text/css application/javascript image/*;
+
+    location / {
+        try_files $uri $uri/ /index.html =404;
+    }
+}
