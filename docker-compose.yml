@@ -6,3 +6,10 @@ services:
     restart: unless-stopped
     ports: 
       - "8080:80"
+  backend:
+    image: nginx:1-alpine
+    restart: unless-stopped
+    ports: 
+      - "8000:80"
+    volumes:
+      - "./RABIT-FRONTEND/uploads:/usr/share/nginx/html"
