@@ -1,17 +1,18 @@
 services:
   frontend:
-    build: 
+    build:
       context: .
       dockerfile: ./docker/frontend.Dockerfile
     restart: unless-stopped
-    ports: 
+    ports:
       - "8080:80"
   backend:
-    build: 
+    build:
       context: .
       dockerfile: ./docker/backend.Dockerfile
     restart: unless-stopped
-    ports: 
-      - "8000:80"
+    command: node /rabit-backend/server.js
+    ports:
+      - "8000:8000"
     volumes:
-      - "./RABIT-FRONTEND/uploads:/var/www/rabit-backend/" # temporary: to be removed once db is used
+      - "./RABIT-FRONTEND/uploads:/rabit-backend/uploads" # temporary: to be removed once db is used
