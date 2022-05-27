@@ -3,8 +3,7 @@
 server {
     listen         80 default_server;
     listen         [::]:80 default_server;
-    root           /var/www/rabit-frontend;
-    index          index.html index.htm;
+    root           /var/www/rabit-backend;
 
     # Compression
     gzip on;
@@ -15,7 +14,6 @@ server {
     gzip_comp_level 9;
     gzip_buffers 16 8k;
     gzip_http_version 1.1;  
-
 
     location / {
         try_files $uri $uri/ /index.html =404;

@@ -7,9 +7,11 @@ services:
     ports: 
       - "8080:80"
   backend:
-    image: nginx:1-alpine
+    build: 
+      context: .
+      dockerfile: ./docker/backend.Dockerfile
     restart: unless-stopped
     ports: 
       - "8000:80"
     volumes:
-      - "./RABIT-FRONTEND/uploads:/usr/share/nginx/html"
+      - "./RABIT-FRONTEND/uploads:/var/www/rabit-backend/" # temporary: to be removed once db is used
