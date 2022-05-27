@@ -1,12 +1,12 @@
 # Dockerfile for RABIT frontend container.
 # Uses Node version 18 to build and nginx v1.x to run. OS is Alpine Linux
 
-FROM node:18-alpine AS base
-
 # build
-FROM base AS builder
+FROM node:18-alpine AS builder
 WORKDIR /rabit-frontend
 COPY ./RABIT-FRONTEND .
+# required for gifsicle 
+RUN apk add --no-cache autoconf automake file g++ libtool make nasm libpng-dev 
 RUN npm ci --save-dev
 RUN npm run build
 
