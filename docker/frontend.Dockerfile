@@ -3,10 +3,11 @@
 
 # build
 FROM node:18-alpine AS builder
+ENV CPPFLAGS="-DPNG_ARM_NEON_OPT=0"
 WORKDIR /rabit-frontend
 COPY ./RABIT-FRONTEND .
-# required for gifsicle 
-RUN apk add --no-cache autoconf automake file g++ libtool make nasm libpng-dev 
+# required for gifsicle
+RUN apk add --no-cache autoconf automake file g++ libtool make nasm libpng-dev bash
 RUN npm ci --save-dev
 RUN npm run build
 
