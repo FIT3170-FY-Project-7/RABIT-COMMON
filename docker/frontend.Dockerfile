@@ -3,7 +3,7 @@
 
 # build
 FROM node:18-alpine AS builder
-#ENV CPPFLAGS="-DPNG_ARM_NEON_OPT=0"
+ENV CPPFLAGS="-DPNG_ARM_NEON_OPT=0"
 WORKDIR /rabit-frontend
 COPY ./RABIT-FRONTEND .
 # required for gifsicle
