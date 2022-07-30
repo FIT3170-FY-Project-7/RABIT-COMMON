@@ -11,8 +11,6 @@ services:
       context: .
       dockerfile: ./docker/backend.Dockerfile
     restart: unless-stopped
-    command: node /rabit-backend/server.js
+    command: npm run start
     ports:
       - "8000:8000"
-    volumes:
-      - "./RABIT-FRONTEND/uploads:/rabit-backend/uploads" # temporary: to be removed once db is used
