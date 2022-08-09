@@ -11,6 +11,9 @@ services:
       context: .
       dockerfile: ./docker/backend.Dockerfile
     restart: unless-stopped
-    command: npm run start
+    command: node dist/index.js
     ports:
       - "8000:8000"
+    volumes:
+      # Firebase service account file
+      - "./RABIT-BACKEND/service-account-file.json:/rabit-backend/service-account-file.json:ro"
