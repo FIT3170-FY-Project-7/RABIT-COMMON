@@ -6,6 +6,9 @@ services:
     restart: unless-stopped
     ports:
       - "8080:80"
+    depends_on:
+      db:
+        condition: service_healthy # do not start RABIT until MySQL is ready
   backend:
     build:
       context: .
@@ -14,3 +17,28 @@ services:
     command: node dist/index.js
     ports:
       - "8000:8000"
+    volumes:
+    - ./RABIT-BACKEND/data:/rabit-backend/data
+    environment:
+      DB_PORT: 3306
+    depends_on:
+      db:
+        condition: service_healthy # do not start RABIT until MySQL is ready
+  db:
+    image: mysql:8
+    command: --default-authentication-plugin=mysql_native_password
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: rabit
+      MYSQL_ROOT_PASSWORD: replace-this
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./RABIT-BACKEND/data:/var/lib/mysql
+      - ./RABIT-BACKEND/database_schemas/DB_generation_schema.sql:/docker-entrypoint-initdb.d/DB_generation_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
