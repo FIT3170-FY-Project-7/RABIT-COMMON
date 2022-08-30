@@ -52,7 +52,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/24266948?v=4",
       "profile": "https://github.com/Brittank88",
       "contributions": [
-        "code"
+        "code",
+        "infra",
+        "design"
       ]
     },
     {
@@ -79,7 +81,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/31131631?v=4",
       "profile": "https://github.com/JMSS-Unknown",
       "contributions": [
-        "code"
+        "code",
+        "infra",
+        "review"
       ]
     },
     {
@@ -106,7 +110,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/34503494?v=4",
       "profile": "https://github.com/megascrapper",
       "contributions": [
-        "code"
+        "code",
+        "infra",
+        "doc"
       ]
     },
     {
@@ -124,7 +130,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/55224240?v=4",
       "profile": "https://github.com/RHackers-00",
       "contributions": [
-        "code"
+        "code",
+        "projectManagement"
       ]
     },
     {
@@ -142,7 +149,10 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/101340211?v=4",
       "profile": "https://github.com/Teg64",
       "contributions": [
-        "code"
+        "code",
+        "infra",
+        "projectManagement",
+        "review"
       ]
     },
     {
@@ -160,7 +170,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/69625231?v=4",
       "profile": "https://github.com/VenuraWe",
       "contributions": [
-        "code"
+        "code",
+        "projectManagement"
       ]
     },
     {
