@@ -13,3 +13,7 @@
 
 # Database data directory
 /RABIT-BACKEND/data
+
+# IDE configurations
+.idea
+.vscode
