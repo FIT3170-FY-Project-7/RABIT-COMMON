@@ -16,6 +16,5 @@ RUN npm run build
 
 # Copy files to final container
 FROM nginx:1-alpine
-WORKDIR /rabit-frontend
-COPY --from=builder /rabit-frontend/dist /var/www/rabit-frontend
+COPY --from=builder /rabit-frontend/dist /usr/share/nginx/html
 COPY ./docker/frontend.nginx /etc/nginx/conf.d/default.conf
