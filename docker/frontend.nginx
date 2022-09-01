@@ -1,24 +1,22 @@
 # Nginx configuration for frontend docker container
-
-client_max_body_size 10000M;
 server {
-    listen         80 default_server;
-    listen         [::]:80 default_server;
-    root           /var/www/rabit-frontend;
-    index          index.html index.htm;
-
-    # Compression
-    gzip on;
-    gzip_static on;
-    gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
-    gzip_proxied  any;
-    gzip_vary on;
-    gzip_comp_level 9;
-    gzip_buffers 16 8k;
-    gzip_http_version 1.1;
-
-
+    listen 80;
     location / {
-        try_files $uri $uri/ /index.html =404;
+        root /usr/share/nginx/html;
+        index index.html index.htm;
+        try_files $uri $uri/ /index.html;
+
+        # Compression
+        gzip on;
+        gzip_static on;
+        gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+        gzip_comp_level 9;
+    }
+
+    # Server error page
+    # This will display the default nginx 50x.html
+    error_page 500 502 503 504 /50x.html;
+    location = /50x.html {
+        root  /usr/share/nginx/html;
     }
 }
