@@ -11,5 +11,9 @@
 # Build directories
 **/dist/
 
-# Upload directory (temp storage)
-/RABIT-FRONTEND/uploads
+# Database data directory
+/RABIT-BACKEND/data
+
+# IDE configurations
+.idea
+.vscode

@@ -1,15 +1,24 @@
 # Dockerfile for RABIT backend container.
 # Uses Node version 18 to build and nginx v1.x to run. OS is Alpine Linux
 
+# Base image
 FROM node:18-alpine as base
 WORKDIR /rabit-backend
-RUN npm install express multer cors nodemon -save
+COPY ./RABIT-BACKEND/package.json .
+COPY ./RABIT-BACKEND/package-lock.json .
+RUN npm ci
 
-FROM base as builder
-COPY ./RABIT-FRONTEND/server.tsx .
-RUN npm install typescript @types/node --save-dev
+# Install dependencies
+FROM base AS builder
+WORKDIR /rabit-backend
+RUN npm ci --save-dev
 
-RUN npx tsc server.tsx
+# Build
+COPY ./RABIT-BACKEND .
+RUN npx tsc
 
+# # Copy to final container
 FROM base
-COPY --from=builder /rabit-backend/server.js .
+WORKDIR /rabit-backend
+COPY --from=builder /rabit-backend/dist ./dist
+COPY ./RABIT-BACKEND/.env .

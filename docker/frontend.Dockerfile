@@ -5,10 +5,9 @@
 FROM node:18-alpine AS builder
 WORKDIR /rabit-frontend
 ENV CPPFLAGS="-DPNG_ARM_NEON_OPT=0"
+RUN apk add --no-cache autoconf automake file g++ libtool make nasm libpng-dev bash
 COPY ./RABIT-FRONTEND/package.json .
 COPY ./RABIT-FRONTEND/package-lock.json .
-# Install required dependencies for node modules
-RUN apk add --no-cache autoconf automake file g++ libtool make nasm libpng-dev bash
 RUN npm ci --save-dev
 
 # Build
