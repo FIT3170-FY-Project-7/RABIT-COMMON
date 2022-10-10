@@ -35,7 +35,8 @@ services:
       - "3306:3306"
     volumes:
       - db-data:/var/lib/mysql
-      - ./RABIT-BACKEND/database_schemas/DB_generation_schema.sql:/docker-entrypoint-initdb.d/DB_generation_schema.sql:ro
+      - ./RABIT-BACKEND/database_schemas/DB_generation_schema.sql:/docker-entrypoint-initdb.d/01_DB_generation_schema.sql:ro
+      - ./RABIT-BACKEND/database_schemas/create_temp_user.sql:/docker-entrypoint-initdb.d/02_create_temp_user.sql:ro
     healthcheck:
       test: ["CMD-SHELL", "mysqladmin ping"]
       interval: 1m30s
