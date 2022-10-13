@@ -1,4 +1,6 @@
+
 # Robust Analytical Bayesian Inference Tool (RABIT)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -8,20 +10,47 @@
 [![Open PR (frontend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-FRONTEND?label=open%20PR%20%28frontend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-FRONTEND/pulls)
 [![Open PR (backend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-BACKEND?label=open%20PR%20%28backend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-BACKEND/pulls)
 
+<!-- markdownlint-disable MD033 -->
+<p style="text-align:center;">
+  <img src="./readme-images/rabit-purple-full.png" width="400px" alt="RABIT logo">
+</p>
+<!-- markdownlint-restore -->
+
 An online data visualisation toolkit for Bayesian parameter estimation data.
 
 ## Features
 
 - Modern web-based interface
 - Easy to use
-- Share your plots easily
+- Share your plots easily by creating a shareable link
+- Export your plots as PNG or SVG
 - Free and open source (ISC licensed)
 
 ## Screenshots
 
+Explore page - contains list of uploaded data:
+
+![RABIT explore page](readme-images/explore-page.png)
+
 Visualise page:
 
-![](./screenshots/visualise.png)
+![RABIT visualise page](readme-images/visualise-page.png)
+
+Changing plot blur radius and colours:
+
+![Changing plot blur radius and colours](readme-images/blur-radius-colour.gif)
+
+Adding and removing parameters on the fly:
+
+![Screen recording of Adding and removing parameters on the fly](readme-images/add-remove-params.gif)
+
+Generate a shareable, persistent link for the current plot:
+
+![Screen recording of Generate a shareable, persistent link for the current plot](readme-images/share-link.gif)
+
+Export plots to PNG and SVG:
+
+![Screen recording of Export plots to PNG and SVG](readme-images/export-plot.gif)
 
 ## Installation
 
