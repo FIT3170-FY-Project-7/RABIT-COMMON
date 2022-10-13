@@ -54,18 +54,18 @@ Export plots to PNG and SVG:
 
 ## Installation
 
-See [installation section of the documentation](https://megascrapper.github.io/rabit-docs/admin-guide/running-your-own-instance.html)
+See [installation section of the documentation](https://fit3170-fy-project-7.github.io/RABIT-DOCS/admin-guide/running-your-own-instance.html)
 
 
 ## Documentation
 
-<https://megascrapper.github.io/rabit-docs/>
+<https://github.com/FIT3170-FY-Project-7/RABIT-DOCS>
 
 The repository for documentation is located at <https://github.com/megascrapper/rabit-docs>
 
 ## Contributing
 
-Refer to the [contributions document](CONTRIBUTING.md).
+Refer to the [contributing to RABIT section of the documentation](https://fit3170-fy-project-7.github.io/RABIT-DOCS/dev-guide/contributing.html).
 
 ## Licence
 
