@@ -5,10 +5,11 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Licence](https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-COMMON)](./LICENSE.md)
-[![Open PR (common)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-COMMON?label=open%20PR%20%28common%29)](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/pulls)
-[![Open PR (frontend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-FRONTEND?label=open%20PR%20%28frontend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-FRONTEND/pulls)
-[![Open PR (backend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-BACKEND?label=open%20PR%20%28backend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-BACKEND/pulls)
+[![Licence](https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square)](./LICENSE.md)
+[![Open PR (common)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square&label=open%20PR%20%28common%29)](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/pulls)
+[![Open PR (frontend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-FRONTEND?style=flat-square&label=open%20PR%20%28frontend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-FRONTEND/pulls)
+[![Open PR (backend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-BACKEND?style=flat-square&label=open%20PR%20%28backend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-BACKEND/pulls)
+![Open Issues](https://img.shields.io/github/issues-raw/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square)
 
 <!-- markdownlint-disable MD033 -->
 <p style="text-align:center;">
