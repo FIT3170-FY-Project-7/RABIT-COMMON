@@ -9,7 +9,7 @@
 [![Open PR (common)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square&label=open%20PR%20%28common%29)](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/pulls)
 [![Open PR (frontend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-FRONTEND?style=flat-square&label=open%20PR%20%28frontend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-FRONTEND/pulls)
 [![Open PR (backend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-BACKEND?style=flat-square&label=open%20PR%20%28backend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-BACKEND/pulls)
-![Open Issues](https://img.shields.io/github/issues-raw/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square)
+[![Open Issues](https://img.shields.io/github/issues-raw/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square)](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/issues)
 
 <!-- markdownlint-disable MD033 -->
 <p style="text-align:center;">
