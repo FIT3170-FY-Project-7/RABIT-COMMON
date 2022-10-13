@@ -1,14 +1,17 @@
 name: Bug report
-about: Create a report to help us improve
-title: ""
+description: Create a report to help us improve
+title: "[Bug] "
 labels: ["bug"]
-assignees: ""
 
 body:
   - type: markdown
     attributes:
       value: |
         Before crearting an issue, make sure you read the [contributing guide](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/CONTRIBUTING.md) and searched for similar issue.
+  - type: markdown
+    attributes:
+      value: |
+        If you have a general discussion or enquiry about RABIT and don't have an issue to report, please make a [discussion thread](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/discussions/new) instead.
   - type: textarea
     id: description
     attributes:
