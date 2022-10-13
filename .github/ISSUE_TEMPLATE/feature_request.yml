@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before crearting an issue, make sure you read the [contributing guide](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/CONTRIBUTING.md) and searched for similar issue.
+        Before crearting an issue, make sure you read the [contributing guide](https://fit3170-fy-project-7.github.io/RABIT-DOCS/dev-guide/contributing.html) and searched for similar issue.
   - type: markdown
     attributes:
       value: |
