@@ -80,7 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://linkedin.com/in/vajpeyi/"><img src="https://avatars.githubusercontent.com/u/15642823?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avi Vajpeyi</b></sub></a><br /><a href="#mentoring-avivajpeyi" title="Mentoring">🧑‍🏫</a></td>
+    <td align="center"><a href="https://github.com/avivajpeyi"><img src="https://avatars.githubusercontent.com/u/15642823?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avi Vajpeyi</b></sub></a><br /><a href="#mentoring-avivajpeyi" title="Mentoring">🧑‍🏫</a></td>
     <td align="center"><a href="https://github.com/AaditBhuwalka"><img src="https://avatars.githubusercontent.com/u/55835278?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AaditBhuwalka</b></sub></a><br /><a href="https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/commits?author=AaditBhuwalka" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/adam23232323"><img src="https://avatars.githubusercontent.com/u/55467606?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adam</b></sub></a><br /><a href="https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/commits?author=adam23232323" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/bevanlewis"><img src="https://avatars.githubusercontent.com/u/51845347?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bevan Lewis</b></sub></a><br /><a href="https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/commits?author=bevanlewis" title="Code">💻</a></td>
