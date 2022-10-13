@@ -1,14 +1,17 @@
 name: Feature request
-about: Suggest an idea for this project
-title: ""
+description: Suggest an idea for this project
+title: "[Request] "
 labels: ["enhancement"]
-assignees: ""
 
 body:
   - type: markdown
     attributes:
       value: |
-        Before crearting an issue, make sure you read the [contributing guide](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/blob/main/CONTRIBUTING.md) and searched for similar issue.
+        Before crearting an issue, make sure you read the [contributing guide](https://fit3170-fy-project-7.github.io/RABIT-DOCS/dev-guide/contributing.html) and searched for similar issue.
+  - type: markdown
+    attributes:
+      value: |
+        If you have a general discussion or enquiry about RABIT and don't have an issue to report, please make a [discussion thread](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/discussions/new) instead.
   - type: textarea
     id: problem_related
     attributes:
@@ -38,5 +41,3 @@ body:
       description: Add any other context about the problem here.
     validations:
       required: false
-
-
