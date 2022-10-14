@@ -1,12 +1,21 @@
+
 # Robust Analytical Bayesian Inference Tool (RABIT)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Licence](https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-COMMON)](./LICENSE.md)
-[![Open PR (common)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-COMMON?label=open%20PR%20%28common%29)](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/pulls)
-[![Open PR (frontend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-FRONTEND?label=open%20PR%20%28frontend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-FRONTEND/pulls)
-[![Open PR (backend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-BACKEND?label=open%20PR%20%28backend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-BACKEND/pulls)
+[![Licence](https://img.shields.io/github/license/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square)](./LICENSE.md)
+[![Open PR (common)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square&label=open%20PR%20%28common%29)](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/pulls)
+[![Open PR (frontend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-FRONTEND?style=flat-square&label=open%20PR%20%28frontend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-FRONTEND/pulls)
+[![Open PR (backend)](https://img.shields.io/github/issues-pr-raw/FIT3170-FY-Project-7/RABIT-BACKEND?style=flat-square&label=open%20PR%20%28backend%29)](https://github.com/FIT3170-FY-Project-7/RABIT-BACKEND/pulls)
+[![Open Issues](https://img.shields.io/github/issues-raw/FIT3170-FY-Project-7/RABIT-COMMON?style=flat-square)](https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/issues)
+
+<!-- markdownlint-disable MD033 -->
+<p style="text-align:center;">
+  <img src="./readme-images/rabit-purple-full.png" width="400px" alt="RABIT logo">
+</p>
+<!-- markdownlint-restore -->
 
 An online data visualisation toolkit for Bayesian parameter estimation data.
 
@@ -14,29 +23,50 @@ An online data visualisation toolkit for Bayesian parameter estimation data.
 
 - Modern web-based interface
 - Easy to use
-- Share your plots easily
+- Share your plots easily by creating a shareable link
+- Export your plots as PNG or SVG
 - Free and open source (ISC licensed)
 
 ## Screenshots
 
+Explore page - contains list of uploaded data:
+
+![RABIT explore page](readme-images/explore-page.png)
+
 Visualise page:
 
-![](./screenshots/visualise.png)
+![RABIT visualise page](readme-images/visualise-page.png)
+
+Changing plot blur radius and colours:
+
+![Changing plot blur radius and colours](readme-images/blur-radius-colour.gif)
+
+Adding and removing parameters on the fly:
+
+![Screen recording of Adding and removing parameters on the fly](readme-images/add-remove-params.gif)
+
+Generate a shareable, persistent link for the current plot:
+
+![Screen recording of Generate a shareable, persistent link for the current plot](readme-images/share-link.gif)
+
+Export plots to PNG and SVG:
+
+![Screen recording of Export plots to PNG and SVG](readme-images/export-plot.gif)
 
 ## Installation
 
-See [installation section of the documentation](https://megascrapper.github.io/rabit-docs/admin-guide/running-your-own-instance.html)
+See [installation section of the documentation](https://fit3170-fy-project-7.github.io/RABIT-DOCS/admin-guide/running-your-own-instance.html)
 
 
 ## Documentation
 
-<https://megascrapper.github.io/rabit-docs/>
+<https://github.com/FIT3170-FY-Project-7/RABIT-DOCS>
 
 The repository for documentation is located at <https://github.com/megascrapper/rabit-docs>
 
 ## Contributing
 
-Refer to the [contributions document](CONTRIBUTING.md).
+Refer to the [contributing to RABIT section of the documentation](https://fit3170-fy-project-7.github.io/RABIT-DOCS/dev-guide/contributing.html).
 
 ## Licence
 
@@ -51,7 +81,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://linkedin.com/in/vajpeyi/"><img src="https://avatars.githubusercontent.com/u/15642823?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avi Vajpeyi</b></sub></a><br /><a href="#mentoring-avivajpeyi" title="Mentoring">🧑‍🏫</a></td>
+    <td align="center"><a href="https://github.com/avivajpeyi"><img src="https://avatars.githubusercontent.com/u/15642823?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avi Vajpeyi</b></sub></a><br /><a href="#mentoring-avivajpeyi" title="Mentoring">🧑‍🏫</a></td>
     <td align="center"><a href="https://github.com/AaditBhuwalka"><img src="https://avatars.githubusercontent.com/u/55835278?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AaditBhuwalka</b></sub></a><br /><a href="https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/commits?author=AaditBhuwalka" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/adam23232323"><img src="https://avatars.githubusercontent.com/u/55467606?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adam</b></sub></a><br /><a href="https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/commits?author=adam23232323" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/bevanlewis"><img src="https://avatars.githubusercontent.com/u/51845347?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bevan Lewis</b></sub></a><br /><a href="https://github.com/FIT3170-FY-Project-7/RABIT-COMMON/commits?author=bevanlewis" title="Code">💻</a></td>
