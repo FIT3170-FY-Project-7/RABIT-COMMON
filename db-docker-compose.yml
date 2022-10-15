@@ -1,0 +1,27 @@
+# This compose file is for creating the db container ONLY.
+# it can be used if you want to use manual deployment for frontend and backend.
+
+services:
+  db:
+    image: mysql:8
+    command: --default-authentication-plugin=mysql_native_password
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: rabit
+      MYSQL_ROOT_PASSWORD: replace-this
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+      # the filenames in the bind mount are prefixed with number so they're executed in that order
+      - ./RABIT-BACKEND/database_schemas/DB_generation_schema.sql:/docker-entrypoint-initdb.d/01_DB_generation_schema.sql:ro
+      - ./RABIT-BACKEND/database_schemas/create_temp_user.sql:/docker-entrypoint-initdb.d/02_create_temp_user.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  db-data:
