@@ -45,11 +45,11 @@ body:
       description: If necessary, paste the log output from Node (backend) or browser console (frontend) here. Screenshots are NOT acceptable.
     validations:
       required: false
+    render: plain text
   - type: textarea
     id: additional_context
     attributes:
       label: Additional context
       description: Add any other context about the problem here, such as OS and browser version as well as device model.
-      render: plain text
     validations:
       required: false
