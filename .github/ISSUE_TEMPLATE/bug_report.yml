@@ -43,9 +43,9 @@ body:
     attributes:
       label: Logs
       description: If necessary, paste the log output from Node (backend) or browser console (frontend) here. Screenshots are NOT acceptable.
+      render: plain text
     validations:
       required: false
-    render: plain text
   - type: textarea
     id: additional_context
     attributes:
