@@ -19,6 +19,10 @@
 
 An online data visualisation toolkit for Bayesian parameter estimation data.
 
+## Try it out
+
+https://rabit2022.cloud.edu.au/plots
+
 ## Features
 
 - Modern web-based interface
